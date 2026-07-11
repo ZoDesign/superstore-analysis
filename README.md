@@ -7,6 +7,28 @@ This project performs Exploratory Data Analysis (EDA) on a retail Superstore dat
 The goal is to identify key patterns, trends and anomalies that influence profitability and operational efficiency.
 
 ---
+## 🚧 Project Progress
+
+### Completed
+- [x] Imported the Superstore dataset
+- [x] Cleaned and preprocessed the data
+- [x] Performed Exploratory Data Analysis (EDA)
+- [x] Identified key business insights
+- [x] Designed the star schema
+- [x] Created the staging table
+- [x] Created the dimension tables
+- [x] Created the fact table
+
+### In Progress
+- [ ] Load transformed data into the data warehouse
+- [ ] Validate data integrity and relationships
+- [ ] Connect SQL Server data warehouse to Power BI
+- [ ] Develop interactive Power BI dashboards
+- [ ] Document key business insights from the dashboards
+- [ ] Add project screenshots
+- [ ] Finalize project documentation
+      
+---
 
 ## 📂 Dataset Description
 The dataset contains transactional retail data including:

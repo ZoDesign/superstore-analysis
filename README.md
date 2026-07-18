@@ -6,6 +6,9 @@ This project performs Exploratory Data Analysis (EDA) on a retail Superstore dat
 
 The goal is to identify key patterns, trends and anomalies that influence profitability and operational efficiency.
 
+## Motivation for project
+This project was undertaken to demonstrate the complete data engineering and business intelligence workflow, from raw transactional data to actionable business insights.
+
 ---
 ## 🚧 Project Progress
 

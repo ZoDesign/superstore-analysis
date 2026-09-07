@@ -2,6 +2,9 @@
 CREATE DATABASE SuperstoreDW;
 GO
 
+USE SuperstoreDW;
+GO
+
 -- Notes
 -- Import CSV through wizard, named 'stg_Orders'
 -- Select allow nulls and set all data types to nvarchar 

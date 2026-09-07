@@ -40,7 +40,7 @@ CREATE TABLE dim_Location (
     LocationKey     INT IDENTITY(1,1) PRIMARY KEY,
     City            VARCHAR(100),
     State           VARCHAR(100),
-    Postal_Code     INT,
+    Postal_Code     VARCHAR(20),
     Region          VARCHAR(50),
     Country         VARCHAR(100)
 );
@@ -50,6 +50,6 @@ GO
 CREATE TABLE dim_ShipMode (
     ShipModeKey      INT IDENTITY(1,1) PRIMARY KEY,
     Ship_Mode       VARCHAR(50),
-	Ship_Tier       VARCHAR(50),
+	Ship_Tier       VARCHAR(50)
 );
 GO

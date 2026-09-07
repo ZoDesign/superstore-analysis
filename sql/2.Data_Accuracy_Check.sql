@@ -37,3 +37,11 @@ OR Country is null
 OR City is null 
 OR State is null
 OR Postal_Code is null;
+
+-- Date checking for range 
+SELECT
+    MIN(CAST(Order_Date AS DATE)) AS Earliest_Order,
+    MAX(CAST(Order_Date AS DATE)) AS Latest_Order,
+    MIN(CAST(Ship_Date  AS DATE)) AS Earliest_Ship,
+    MAX(CAST(Ship_Date  AS DATE)) AS Latest_Ship
+FROM stg_Orders;

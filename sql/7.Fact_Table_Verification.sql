@@ -48,3 +48,13 @@ SELECT
     AVG(Shipping_Duration)  AS Avg_Ship_Days
 FROM fact_Sales;
 GO
+
+SELECT
+    COUNT(*) AS TotalFactRows,
+    COUNT(OrderDateKey) AS OrderDates,
+    COUNT(ShipDateKey) AS ShipDates,
+    COUNT(CustomerKey) AS Customers,
+    COUNT(ProductKey) AS Products,
+    COUNT(LocationKey) AS Locations,
+    COUNT(ShipModeKey) AS ShipModes
+FROM dbo.fact_Sales;

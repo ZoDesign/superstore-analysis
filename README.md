@@ -21,11 +21,11 @@ After completing a Data Warehousing module during my honours studies, I wanted t
 - [x] Created the staging table
 - [x] Created the dimension tables
 - [x] Created the fact table
+- [x] Load transformed data into the data warehouse
+- [x] Validate data integrity and relationships
+- [x] Connect SQL Server data warehouse to Power BI
 
 ### In Progress
-- [ ] Load transformed data into the data warehouse
-- [ ] Validate data integrity and relationships
-- [ ] Connect SQL Server data warehouse to Power BI
 - [ ] Develop interactive Power BI dashboards
 - [ ] Document key business insights from the dashboards
 - [ ] Add project screenshots
